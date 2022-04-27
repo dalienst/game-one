@@ -7,7 +7,7 @@ class QuizBrain:
     def next_question(self):
         current_question = self.question_list [self.question_number]
         self.question_number += 1
-        user_answer = input(f"Q.{self.question_number} : {current_question.text} \n Enter your choice here:  ")
+        user_answer = input(f"Q.{self.question_number} : {current_question.text} \n Enter your choice here (A, B or C):  ")
         self.check_answer(user_answer, current_question.answer)
 
     def still_has_questions(self):
