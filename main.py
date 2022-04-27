@@ -6,6 +6,7 @@ from data import question_data
 def question():
     print("Hello! Welcome to this quiz")
     input(str("Enter your name: "))
+    print("\n")
     question_bank = []
     for question in question_data:
         question_text = question["question"]
