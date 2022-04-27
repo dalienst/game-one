@@ -1,46 +1,47 @@
 question_data = [
     {
         "category" : "Science:Computers",
-        "type" : "boolean",
+        "type" : "multiple",
         "difficulty" : "easy",
-        "question" : "The Windows ME operating system was released in the year 2000",
-        "correct_answer" : "True",
-        "incorrect_answers" : ["False"]
+        "question" : "What year was the Windows ME operating system released? \n Choices: \nA. 2000, \nB. 2001, "
+                     "\nC. 1999",
+        "correct_answer" : "A",
+        "incorrect_answers" : ["2001", "2001", "1999", "B", "C" ]
     },
 
     {
         "category" : "Science:Computers",
-        "type" : "boolean",
+        "type" : "multiple",
         "difficulty" : "easy",
-        "question" : "Linus Torvalds created Linux and Git",
-        "correct_answer" : "True",
-        "incorrect_answers" : ["False"]
+        "question" : "Who created Linux and Git? \n Choices: \nA. Linus Torvalds, \nB. Bill Gates, \nC. Albert Einstein",
+        "correct_answer" : "A",
+        "incorrect_answers" : ["B, C"]
     },
 
     {
-        "category" : "Science:Computers",
-        "type" : "boolean",
+        "category" : "Vehicles",
+        "type" : "multiple",
         "difficulty" : "easy",
-        "question" : "The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution",
-        "correct_answer" : "False",
-        "incorrect_answers" : ["True"]
+        "question" : "Who owns Tesla Car Company? \n Choices: \nA. Nikola Tesla \nB. Elon Musk \nC. Jeff Bezos",
+        "correct_answer" : "B",
+        "incorrect_answers" : ["A, C"]
     },
 
     {
-        "category" : "Science:Computers",
-        "type" : "boolean",
+        "category" : "General Knowledge",
+        "type" : "multiple",
         "difficulty" : "easy",
-        "question" : "Time on Computers is measured via the EPOX System.",
-        "correct_answer" : "False",
-        "incorrect_answers" : ["True"]
+        "question" : "A human being has how many permanent teeth? \nChoices: \nA. 30 \nB. 20 \nC. 32",
+        "correct_answer" : "C",
+        "incorrect_answers" : ["B", "A"]
     },
 
     {
-        "category" : "Science:Computers",
-        "type" : "boolean",
+        "category" : "Animals",
+        "type" : "multiple",
         "difficulty" : "easy",
-        "question" : "Ada Lovelace is often considered the first computer programmer.",
-        "correct_answer" : "True",
-        "incorrect_answers" : ["False"]
+        "question" : "What color are polar bears? \nChoices: \nA. Black \nB. White \nC. Spotted",
+        "correct_answer" : "A",
+        "incorrect_answers" : ["B", "C"]
     },
 ]
