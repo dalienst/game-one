@@ -3,6 +3,9 @@ from quiz_brain import QuizBrain
 from data import question_data
 
 
+print("Hello! Welcome to this quiz")
+input(str("Enter your name: "))
+
 question_bank = []
 for question in question_data:
     question_text = question["question"]
@@ -15,6 +18,6 @@ quiz = QuizBrain(question_bank)
 while quiz.still_has_questions():
     quiz.next_question()
 
-    
+
 print("You are done")
 print(f"Your final score is: {quiz.score}/{quiz.question_number}")
